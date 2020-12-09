@@ -3,29 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2A2645F2257FC58700FF36EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2645F1257FC58700FF36EC /* AppDelegate.swift */; };
 		2A2645F4257FC58700FF36EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2645F3257FC58700FF36EC /* SceneDelegate.swift */; };
-		2A2645F6257FC58700FF36EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2645F5257FC58700FF36EC /* ViewController.swift */; };
 		2A2645F9257FC58700FF36EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2645F7257FC58700FF36EC /* Main.storyboard */; };
 		2A2645FB257FC58800FF36EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2645FA257FC58800FF36EC /* Assets.xcassets */; };
 		2A2645FE257FC58800FF36EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2645FC257FC58800FF36EC /* LaunchScreen.storyboard */; };
-		2A264607257FC5FB00FF36EC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A264606257FC5FB00FF36EC /* SecondViewController.swift */; };
+		2A48A8D92581809C002B27C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48A8D82581809C002B27C3 /* ViewController.swift */; };
+		2A48A8DC258180B2002B27C3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48A8DB258180B2002B27C3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A2645EE257FC58700FF36EC /* Passing Data Using NotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passing Data Using NotificationCenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2645F1257FC58700FF36EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A2645F3257FC58700FF36EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A2645F5257FC58700FF36EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A2645F8257FC58700FF36EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A2645FA257FC58800FF36EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2645FD257FC58800FF36EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2645FF257FC58800FF36EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A264606257FC5FB00FF36EC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2A48A8D82581809C002B27C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A48A8DB258180B2002B27C3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				2A2645F1257FC58700FF36EC /* AppDelegate.swift */,
 				2A2645F3257FC58700FF36EC /* SceneDelegate.swift */,
-				2A2645F5257FC58700FF36EC /* ViewController.swift */,
-				2A264606257FC5FB00FF36EC /* SecondViewController.swift */,
+				2A48A8D82581809C002B27C3 /* ViewController.swift */,
+				2A48A8DB258180B2002B27C3 /* SecondViewController.swift */,
 				2A2645F7257FC58700FF36EC /* Main.storyboard */,
 				2A2645FA257FC58800FF36EC /* Assets.xcassets */,
 				2A2645FC257FC58800FF36EC /* LaunchScreen.storyboard */,
@@ -105,7 +105,7 @@
 				};
 			};
 			buildConfigurationList = 2A2645E9257FC58600FF36EC /* Build configuration list for PBXProject "Passing Data Using NotificationCenter" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A264607257FC5FB00FF36EC /* SecondViewController.swift in Sources */,
-				2A2645F6257FC58700FF36EC /* ViewController.swift in Sources */,
+				2A48A8DC258180B2002B27C3 /* SecondViewController.swift in Sources */,
+				2A48A8D92581809C002B27C3 /* ViewController.swift in Sources */,
 				2A2645F2257FC58700FF36EC /* AppDelegate.swift in Sources */,
 				2A2645F4257FC58700FF36EC /* SceneDelegate.swift in Sources */,
 			);
